@@ -1,5 +1,6 @@
 /*For a given N, return an arraylist containing the sum of even and odd integers of the first N natural numbers. */
 
+import java.util.*;
 class Solution{
     static ArrayList<Integer> getSum(int N){
         // code here
@@ -21,5 +22,15 @@ class Solution{
             ans.add(b);
         }
         return ans;
+    }
+    
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        
+        Solution obj =new Solution();
+        
+        
+        System.out.print(obj.getSum(N));
     }
 }
