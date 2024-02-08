@@ -1,4 +1,4 @@
-/* Common Elements in 2 Arrays */
+/* Common Elements in 2 Arrays  */
 
 class Solution{
     public static ArrayList<Integer> common_element(int v1[], int v2[])
